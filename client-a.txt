@@ -2,3 +2,12 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+minNum = 1
+maxNum = 10
+generatedNum = randomly generated number
+guessedNum = players guess
+
+randomly generate a number between minNum and maxNum
+if guessedNum != generatedNum (generate new Number between minNum and maxNum)
+if guessedNum === generatedNum (output congrats msg and break)
+if generatedNum 3x (output failure msg and break)

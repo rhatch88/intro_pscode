@@ -2,3 +2,8 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+scanCount = 2;
+
+while (scanCount <= 50) {
+    scanCount += 2;
+}

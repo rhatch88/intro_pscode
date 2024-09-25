@@ -2,3 +2,15 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+1. init floorplan grid //think battleship (x 0-100; y 0-100)
+
+customerStartPosition = 0,0
+CustomerTarget = 43,71
+
+if DIRECTION is NORTH (increase to x);
+if DIRECTION is SOUTH (decrease from x);
+if DIRECTION is EAST (increase to y);
+if DIRECTION is WEST (decrease from Y);
+
+if customerPosition != CustomerTarget output ('Keep looking!')
+if customersPosition === CustomerTarget output ('CONGRATS, YOU FOUND THE ANCHOVIES!')

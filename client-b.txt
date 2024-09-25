@@ -13,4 +13,4 @@ if DIRECTION is EAST (increase to y);
 if DIRECTION is WEST (decrease from Y);
 
 if customerPosition != CustomerTarget output ('Keep looking!')
-if customersPosition === CustomerTarget output ('CONGRATS, YOU FOUND THE ANCHOVIES!')
+if customerPosition === CustomerTarget output ('CONGRATS, YOU FOUND THE ANCHOVIES!')
